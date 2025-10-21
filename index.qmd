@@ -9,7 +9,123 @@ format:
 
 ## Contents
 
-- What is `movement`?
-- Current governance structure
-- Future plans
+- The context: what is `movement`?
+
+- Current governance structures
+
+- Requirements for future governance
+
+## The Sainsbury Wellcome Centre
+
+::: {layout="[[-10, 80, -10], [-15, 35, -5, 30, -15]]" layout-align="center"}
+
+![](img/swc-research-diagram.png)
+
+![](img/light-logo-swc.png)
+
+![](img/light-logo-ucl.png)
+:::
+
+::: aside
+> Our research mission is to discover the fundamental principles of how the brain drives behaviour.
+:::
+
+::: footer
+[sainsburywellcome.org](https://www.sainsburywellcome.org/web/)
+:::
+
+
+## The Neuroinformatics Unit {.smaller}
+
+:::: {columns}
+
+::: {.column width="45%"}
+
+![](img/niu-team-photo.jpg)
+
+:::
+
+::: {.column width="55%"}
+
+What we do:
+
+:::{.incremental}
+- **Novel open-source software** for analysing brain activity and animal behaviour.
+- **Collaborations** with researcher labs and other software teams.
+- **Spreading knowledge**  via teaching, documentation.
+:::
+
+:::
+
+::::
+
+
+::: aside
+> A **research software engineering** (RSE) team... dedicated to the development of high quality, accurate, robust, easy to use and maintainable open-source software for neuroscience and machine learning.
+:::
+
+::: footer
+[neuroinformatics.dev](https://neuroinformatics.dev)
+:::
+
+
+## Tracking animals in videos
+
+![Source: [sleap.ai](https://sleap.ai/)](img/sleap_video.gif){fig-align="left"}
+
+
+## `movement` overview {.smaller}
+
+![](img/movement_overview.png){height=450}
+
+
+::: aside
+{{< fa download >}} ~60k downloads (PyPI + conda-forge)
+
+{{< fa brands github >}} 26 code contributors, 50% from outside UCL
+
+{{< fa message >}} Public forum hosts 82 members across 53 threads
+:::
+
+::: footer
+[movement.neuroinformatics.dev](https://movement.neuroinformatics.dev/)
+:::
+
+## How `movement` came to be {.smaller}
+
+::: {.fragment fragment-index=1}
+- 2022: SWC leadership and Adam Tyson (NIU head) approved identify need for robust animal behavior analysis software.
+:::
+
+::: {.fragment fragment-index=2}
+- 2023: Niko scoped out the project and started development.
+:::
+
+::: {.fragment fragment-index=3}
+- 2024: Sofía and Chang Huan joined the `movement` team.
+:::
+
+::: {layout="[[20, 20, 20, 20]]"}
+
+::: {.fragment fragment-index=1}
+![Adam Tyson](img/adam_tyson.jpg)
+:::
+
+::: {.fragment fragment-index=2}
+![Niko Sirmpilatze](img/niko_sirmpilatze.png)
+:::
+
+::: {.fragment fragment-index=3}
+![Sofía Miñano](img/sofia_minano.png)
+:::
+
+::: {.fragment fragment-index=3}
+![Chang Huan Lo](img/chang_huan_lo.png)
+:::
+
+:::
+
+
+## Current governance structure {.smaller}
+
 
