@@ -13,9 +13,13 @@ format:
 
 - Examining current governance
 
-- Challenges to scaling governance
+- Challenges to address
 
-## The Sainsbury Wellcome Centre
+::: aside
+These slides are available at: [neuroinformatics.dev/slides-movement-governance](https://neuroinformatics.dev/slides-movement-governance/#/title-slide)
+:::
+
+## Sainsbury Wellcome Centre (SWC)
 
 ::: {layout="[[-10, 80, -10], [-15, 35, -5, 30, -15]]" layout-align="center"}
 
@@ -35,32 +39,19 @@ format:
 :::
 
 
-## The Neuroinformatics Unit {.smaller}
+## Neuroinformatics Unit (NIU)
 
 :::: {columns}
 
-::: {.column width="45%"}
-
+::: {.column width="50%"}
 ![](img/niu-team-photo.jpg)
-
 :::
 
-::: {.column width="55%"}
-
-What we do:
-
-- **Novel open-source software** for analysing brain activity and animal behaviour.
-- **Collaborations** with researcher labs and other software teams.
-- **Spreading knowledge**  via teaching, documentation.
-
+::: {.column width="50%"}
+> A **research software engineering** (RSE) team... dedicated to the development of high quality, accurate, robust, easy to use and maintainable open-source software for neuroscience and machine learning.
 :::
 
 ::::
-
-
-::: aside
-> A **research software engineering** (RSE) team... dedicated to the development of high quality, accurate, robust, easy to use and maintainable open-source software for neuroscience and machine learning.
-:::
 
 ::: footer
 [neuroinformatics.dev](https://neuroinformatics.dev)
@@ -79,6 +70,11 @@ What we do:
 ::: footer
 [movement.neuroinformatics.dev](https://movement.neuroinformatics.dev/)
 :::
+
+## Who is involved in `movement`?
+
+![](img/movement_stakeholders.png){fig-align="center"}
+
 
 ## `movement` size and growth {.smaller}
 
@@ -172,11 +168,6 @@ _Source: ["Governance for Software Engineers"](https://speaking.unlockopen.com/t
 - Avoid aspirational governance—spell out **existing norms**; do not invent new ones.
 :::
 
-## Who is involved in `movement`?
-
-![](img/movement_stakeholders.png){fig-align="center"}
-
-
 ## What are our existing norms? {.smaller} 
 
 Looking through the lens of **Ostrom's three levels of governance**:
@@ -213,28 +204,23 @@ Sources:
 
 ## Collective level
 
-- **Maintainers** make day-to-day decisions, e.g. merging PRs, closing issues.
+For **major decisions**, such as roadmaps, feature prioritisation, and design changes:
 
-::: {.fragment}
-- For **major decisions**, such as roadmaps, feature prioritisation, and design changes:
-  - **Collaborators** and **contributors** are often consulted.
-  - **Maintainers** decide by **consensus**.
-  - **Head engineer** (Adam) has the final say in case of deadlocks (rarely happens).
+::: {.incremental}
+- **Collaborators** and **contributors** are often consulted.
+- **Maintainers** decide by [Consensus](https://communityrule.info/templates/consensus.html).
+- **Head engineer** (Adam) has the final say in case of deadlocks (rarely happens).
 :::
 
 ## Constitutional level
 
+::: {.incremental}
 - **Niko** to draft a governance proposal for `movement`, incorporating Birdaro's training.
 - **Maintainers** and **Adam** to provide feedback, iterating until consensus.
 - **Collaborators** and **contributors** may also be consulted.
 - Final approval may be required from **SWC senior leadership**.
 - The governance document to be published and periodically reviewed.
-
-## Which *implicit* norms should be made *explicit*?
-
-- **Feedback culture**, especially around code reviews
-- **Decision-making** modes and processes
-- **Defining roles and pathways** for maintainers, tech lead, collaborators
+:::
 
 ## Challenges to think about (1)
 
@@ -250,8 +236,8 @@ How do we prevent separation between the Neuroinformatics Unit and the wider com
 How do we scale the consensus-based decision-making process as the number of maintainers increases?
 
 ::: {.fragment}
-- Gradually move towards a "Circles" model, with sub-teams having autonomy over specific areas.
-- Formalise procedures for failures to reach consensus.
+- Gradually move towards a [Circles](https://communityrule.info/templates/circles.html) model.
+- Formalise procedures for failures to reach consensus:
   - Introduce voting mechanisms for major decisions.
   - Acknowledge the Head Engineer's role as a tiebreaker.
 :::
@@ -269,4 +255,5 @@ What if SWC completely changes course on `movement`?
 - [Open Source Guide on Leadership and Governance](https://opensource.guide/leadership-and-governance/)
 - [Governance of Open Source Software](https://governingopen.com/)
 - [Governance for Software Engineers](https://speaking.unlockopen.com/t7cQZt/open-source-governance-for-software-engineers#sne53yn)
+- [CommunityRule](https://communityrule.info/)
 - [GitHub's Minimum Viable Governance](https://github.com/github/MVG)
