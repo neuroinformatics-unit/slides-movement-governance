@@ -148,12 +148,15 @@ Niko Sirmpilatze
 <ul>
 <li><p>The context: what is <code>movement</code>?</p></li>
 <li><p>Examining current governance</p></li>
-<li><p>Challenges to scaling governance</p></li>
+<li><p>Challenges to address</p></li>
 </ul>
-</section>
-<section id="the-sainsbury-wellcome-centre" class="slide level2">
-<h2>The Sainsbury Wellcome Centre</h2>
-<div class="quarto-layout-panel" data-layout="[[-10, 80, -10], [-15, 35, -5, 30, -15]]" data-layout-align="center">
+
+<aside><div>
+<p>These slides are available at: <a href="https://neuroinformatics.dev/slides-movement-governance/#/title-slide">neuroinformatics.dev/slides-movement-governance</a></p>
+</div></aside></section>
+<section id="sainsbury-wellcome-centre-swc" class="slide level2">
+<h2>Sainsbury Wellcome Centre (SWC)</h2>
+<div class="quarto-layout-panel" data-layout-align="center" data-layout="[[-10, 80, -10], [-15, 35, -5, 30, -15]]">
 <div class="quarto-layout-row">
 <div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 10.0%;justify-content: center;">
 <p>&nbsp;</p>
@@ -192,28 +195,20 @@ Niko Sirmpilatze
 <p>Our research mission is to discover the fundamental principles of how the brain drives behaviour.</p>
 </blockquote>
 </div></aside></section>
-<section id="the-neuroinformatics-unit" class="slide level2 smaller">
-<h2>The Neuroinformatics Unit</h2>
+<section id="neuroinformatics-unit-niu" class="slide level2">
+<h2>Neuroinformatics Unit (NIU)</h2>
 <div class="{columns}">
-<div class="column" style="width:45%;">
+<div class="column" style="width:50%;">
 <p><img data-src="img/niu-team-photo.jpg"></p>
-</div><div class="column" style="width:55%;">
-<p>What we do:</p>
-<ul>
-<li><strong>Novel open-source software</strong> for analysing brain activity and animal behaviour.</li>
-<li><strong>Collaborations</strong> with researcher labs and other software teams.</li>
-<li><strong>Spreading knowledge</strong> via teaching, documentation.</li>
-</ul>
-</div></div>
-
-<div class="footer">
-<p><a href="https://neuroinformatics.dev">neuroinformatics.dev</a></p>
-</div>
-<aside><div>
+</div><div class="column" style="width:50%;">
 <blockquote>
 <p>A <strong>research software engineering</strong> (RSE) team… dedicated to the development of high quality, accurate, robust, easy to use and maintainable open-source software for neuroscience and machine learning.</p>
 </blockquote>
-</div></aside></section>
+</div></div>
+<div class="footer">
+<p><a href="https://neuroinformatics.dev">neuroinformatics.dev</a></p>
+</div>
+</section>
 <section id="tracking-animals-in-videos" class="slide level2">
 <h2>Tracking animals in videos</h2>
 
@@ -225,13 +220,17 @@ Niko Sirmpilatze
 <p><a href="https://movement.neuroinformatics.dev/">movement.neuroinformatics.dev</a></p>
 </div>
 </section>
+<section id="who-is-involved-in-movement" class="slide level2">
+<h2>Who is involved in <code>movement</code>?</h2>
+
+<img data-src="img/movement_stakeholders.png" class="quarto-figure quarto-figure-center r-stretch"></section>
 <section id="movement-size-and-growth" class="slide level2 smaller">
 <h2><code>movement</code> size and growth</h2>
 <p>{{&lt; fa download &gt;}} ~60k downloads (PyPI + conda-forge)</p>
 <p>{{&lt; fa brands github &gt;}} 26 code contributors, 50% from outside UCL</p>
 <p>{{&lt; fa code-pull-request &gt;}} ~300 merged pull requests</p>
 <p>{{&lt; fa message &gt;}} Public forum hosts 82 members across 53 threads</p>
-<div id="92dcddbd" class="cell" data-execution_count="2">
+<div id="647c9433" class="cell" data-execution_count="2">
 <div class="cell-output cell-output-display">
 <div>
 <figure>
@@ -280,10 +279,6 @@ Niko Sirmpilatze
 <li class="fragment">Avoid aspirational governance—spell out <strong>existing norms</strong>; do not invent new ones.</li>
 </ul>
 </section>
-<section id="who-is-involved-in-movement" class="slide level2">
-<h2>Who is involved in <code>movement</code>?</h2>
-
-<img data-src="img/movement_stakeholders.png" class="quarto-figure quarto-figure-center r-stretch"></section>
 <section id="what-are-our-existing-norms" class="slide level2 smaller scrollable">
 <h2>What are our existing norms?</h2>
 <p>Looking through the lens of <strong>Ostrom’s three levels of governance</strong>:</p>
@@ -354,36 +349,21 @@ Niko Sirmpilatze
 </div></aside></section>
 <section id="collective-level" class="slide level2">
 <h2>Collective level</h2>
+<p>For <strong>major decisions</strong>, such as roadmaps, feature prioritisation, and design changes:</p>
 <ul>
-<li><strong>Maintainers</strong> make day-to-day decisions, e.g.&nbsp;merging PRs, closing issues.</li>
+<li class="fragment"><strong>Collaborators</strong> and <strong>contributors</strong> are often consulted.</li>
+<li class="fragment"><strong>Maintainers</strong> decide by <a href="https://communityrule.info/templates/consensus.html">Consensus</a>.</li>
+<li class="fragment"><strong>Head engineer</strong> (Adam) has the final say in case of deadlocks (rarely happens).</li>
 </ul>
-<div class="fragment">
-<ul>
-<li>For <strong>major decisions</strong>, such as roadmaps, feature prioritisation, and design changes:
-<ul>
-<li><strong>Collaborators</strong> and <strong>contributors</strong> are often consulted.</li>
-<li><strong>Maintainers</strong> decide by <strong>consensus</strong>.</li>
-<li><strong>Head engineer</strong> (Adam) has the final say in case of deadlocks (rarely happens).</li>
-</ul></li>
-</ul>
-</div>
 </section>
 <section id="constitutional-level" class="slide level2">
 <h2>Constitutional level</h2>
 <ul>
-<li><strong>Niko</strong> to draft a governance proposal for <code>movement</code>, incorporating Birdaro’s training.</li>
-<li><strong>Maintainers</strong> and <strong>Adam</strong> to provide feedback, iterating until consensus.</li>
-<li><strong>Collaborators</strong> and <strong>contributors</strong> may also be consulted.</li>
-<li>Final approval may be required from <strong>SWC senior leadership</strong>.</li>
-<li>The governance document to be published and periodically reviewed.</li>
-</ul>
-</section>
-<section id="which-implicit-norms-should-be-made-explicit" class="slide level2">
-<h2>Which <em>implicit</em> norms should be made <em>explicit</em>?</h2>
-<ul>
-<li><strong>Feedback culture</strong>, especially around code reviews</li>
-<li><strong>Decision-making</strong> modes and processes</li>
-<li><strong>Defining roles and pathways</strong> for maintainers, tech lead, collaborators</li>
+<li class="fragment"><strong>Niko</strong> to draft a governance proposal for <code>movement</code>, incorporating Birdaro’s training.</li>
+<li class="fragment"><strong>Maintainers</strong> and <strong>Adam</strong> to provide feedback, iterating until consensus.</li>
+<li class="fragment"><strong>Collaborators</strong> and <strong>contributors</strong> may also be consulted.</li>
+<li class="fragment">Final approval may be required from <strong>SWC senior leadership</strong>.</li>
+<li class="fragment">The governance document to be published and periodically reviewed.</li>
 </ul>
 </section>
 <section id="challenges-to-think-about-1" class="slide level2">
@@ -401,8 +381,8 @@ Niko Sirmpilatze
 <p>How do we scale the consensus-based decision-making process as the number of maintainers increases?</p>
 <div class="fragment">
 <ul>
-<li>Gradually move towards a “Circles” model, with sub-teams having autonomy over specific areas.</li>
-<li>Formalise procedures for failures to reach consensus.
+<li>Gradually move towards a <a href="https://communityrule.info/templates/circles.html">Circles</a> model.</li>
+<li>Formalise procedures for failures to reach consensus:
 <ul>
 <li>Introduce voting mechanisms for major decisions.</li>
 <li>Acknowledge the Head Engineer’s role as a tiebreaker.</li>
@@ -425,6 +405,7 @@ Niko Sirmpilatze
 <li><a href="https://opensource.guide/leadership-and-governance/">Open Source Guide on Leadership and Governance</a></li>
 <li><a href="https://governingopen.com/">Governance of Open Source Software</a></li>
 <li><a href="https://speaking.unlockopen.com/t7cQZt/open-source-governance-for-software-engineers#sne53yn">Governance for Software Engineers</a></li>
+<li><a href="https://communityrule.info/">CommunityRule</a></li>
 <li><a href="https://github.com/github/MVG">GitHub’s Minimum Viable Governance</a></li>
 </ul>
 
