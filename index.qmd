@@ -151,7 +151,7 @@ plt.show()
 For more details, see:
 
 - {{< fa globe >}} [movement.neuroinformatics.dev](https://movement.neuroinformatics.dev/)
-- {{< fa brands github >}} [github.com/Neuroinformatics/movement](https://github.com/Neuroinformatics/movement)
+- {{< fa brands github >}} [github.com/neuroinformatics-unit/movement](https://github.com/neuroinformatics-unit/movement)
 :::
 
 ## Motivations for more formal governance
@@ -182,7 +182,7 @@ Looking through the lens of **Ostrom's three levels of governance**:
 Sources:
 
 - [Governing the Commons: The Evolution of Institutions for Collective Action](https://www.actu-environnement.com/media/pdf/ostrom_1990.pdf), by *Elinor Ostrom*.
-- [In Introduction to Governance](https://governingopen.com/resources/why-governance.html), by *Shauna Gordon-McKeon*.
+- [An Introduction to Governance](https://governingopen.com/resources/why-governance.html), by *Shauna Gordon-McKeon*.
 :::
 
 
